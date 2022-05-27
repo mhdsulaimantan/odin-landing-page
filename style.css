@@ -1,0 +1,150 @@
+body,.header-section,.description,.info-section{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin: 0;
+}
+
+.header-section{
+    background-color: #1F2937;
+    margin: 0;
+    height: 400px;
+    gap: 30px;
+}
+
+.header,.header-body{
+    display: flex;
+    padding: 8px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.description{
+    max-width: 400px;
+    flex: auto;
+    gap: 5px;
+}
+
+.logo,.title,.des-img{
+    color: #F9FAF8;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+ul, .sub-title{
+    font-size: 18px;
+    color: #E5E7EB;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+.logo{
+    font-size: 24px;
+    width: 300px;
+}
+
+.des-img{
+    background-color: gray;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    padding: 3px;
+    width: 100px;
+    height: 30px;
+    color: #F9FAF8;
+    background-color: rgb(0, 140, 255);
+}
+
+.info-section{
+    justify-content: center;
+    align-items: center;
+}
+
+.info-title{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+    height: 200px;
+}
+
+.card{
+    width: 100px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    border-radius: 10px;
+    border: rgb(0, 140, 255) solid 2px;
+    width: 100px;
+    height: 100px;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+}
+
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 50px 100px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author{
+    font-weight: bold;
+    float: right;
+}
+
+.reminder-section{
+    background-color: rgb(0, 140, 255);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.re-title,.re-subtext{
+    color: #E5E7EB;
+}
+
+.re-title{
+    font-weight: bold;
+}
+
+.re-btn{
+    border: white solid 2px;
+}
+
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+}
